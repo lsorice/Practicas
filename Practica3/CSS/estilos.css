@@ -1,7 +1,20 @@
+* {box-sizing: border-box;}
+
 .lista{
   list-style-type:none;
 }
 
-h1{
+h2{
   border-bottom:1px solid #000;
+
 }
+
+section{
+  float: right;
+
+}
+
+ body{
+   width:900px;
+   margin: auto;
+ }
