@@ -1,21 +1,26 @@
 * {box-sizing: border-box;}
 
 .lista{
+  /* Saco las bolitas de costado de la lista*/
   list-style-type:none;
 }
 
 h2{
+  /*Genero la linea que se ve debajo*/
   border-bottom:1px solid #000;
 
 }
 
 section{
+  /*Floto todos los elementos que se encuentran dentro de la seccion*/
   float: right;
-
+  padding: 15px;
+  background-color:#FAB95B;
+  border-left: 1px solid;
 }
 
  body{
-   width:900px;
+   width:960px;
    margin: auto;
  }
 
@@ -26,8 +31,25 @@ div{
 }
 nav{
   float:left;
+  padding:15px;
+  background-color:#71A0A5;
+  width: 300px;
+  line-height: 40px;
 }
 
 main{
   overflow: hidden;
+}
+
+header{
+  padding-bottom:20px;
+  background-color: #BFCD7E;
+}
+
+footer{
+  background-color: green;
+}
+
+.entrada{
+  float:right;
 }
