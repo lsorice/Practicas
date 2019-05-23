@@ -5,7 +5,7 @@
   list-style-type:none;
 }
 
-h2{
+.entradas{
   /*Genero la linea que se ve debajo*/
   border-bottom:1px solid #000;
 
@@ -16,7 +16,10 @@ section{
   float: right;
   padding: 15px;
   background-color:#FAB95B;
+
+  /*Aca genero la linea del medio*/
   border-left: 1px solid;
+  width: 610px;
 }
 
  body{
@@ -43,11 +46,13 @@ main{
 
 header{
   padding-bottom:20px;
+  border:1px solid;
   background-color: #BFCD7E;
 }
 
 footer{
   background-color: green;
+  padding:20px;
 }
 
 .entrada{
