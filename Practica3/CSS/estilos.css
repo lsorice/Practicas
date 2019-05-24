@@ -57,6 +57,9 @@ footer{
   padding:20px;
 }
 
+footer ul li{
+  float:right;
+}
 .entrada{
   float:right;
 }
