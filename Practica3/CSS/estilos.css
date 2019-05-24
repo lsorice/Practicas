@@ -57,8 +57,10 @@ footer{
   padding:20px;
 }
 
-footer ul li{
+footer ul i{
   float:right;
+  margin:5px;
+  width: 7px;
 }
 .entrada{
   float:right;
